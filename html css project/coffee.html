@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <h1 class="brand"> coffee masters
+        <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" 
+        alt="coffee masters logo" class="logo">
+     </h1>
+   </nav>
+
+<section class="box1">
+    <h2 class="colmheading">ITEMS</h2>
+    
+        <ul class="itemrow">
+            <div class="itemqt">1x</div>
+            <div class="itemname">cappucino</div>
+            <div class="itemprice">$6.00</div>
+            
+            <ul class="item-opt">
+                <li>
+                light foam
+                </li>
+            </ul>
+        </ul>
+     <hr>
+
+
+        <ul class="itemrow">
+            <div class="itemqt">1x</div>
+            <div class="itemname">cappucino</div>
+            <div class="itemprice">$7.90</div>
+    
+        
+           <ul class="item-opt">
+               <li>almond milk </li>
+               <li>double espresso</li> 
+           </ul>
+         </ul>   
+        
+    <hr>
+    
+        <ul class="itemrow">
+            <div class="itemqt">1x</div>
+            <div class="itemname">Croissant</div>
+            <div class="itemprice">$5.37</div>
+            
+            <ul class="item-opt">
+                <li>butter</li>
+             </ul>
+        </ul>
+    
+
+</section>
+    
+<section class="box"> 
+        <h2 class="colmheading">NAME</h2>
+        <div class="type">
+        <label for="order" class="input-label">Name of order</label>
+        <input id="order" class="input-space" placeholder="type">
+         </div>
+
+    </section>
+    <section class="box">
+        <h2 class="colmheading">PAYMENT</h2>
+        <br>
+
+       </br>
+<div class="type">
+        <label for="pay" class="input-label">Card number</label>
+        <input id="pay" class="input-space" placeholder="type">
+        <br>
+    </br>
+</div>
+<div class="type">
+        <label for="ccv" class="input-label">CVV Number</label>
+        <input id="ccv" class="input-space" placeholder="type">
+</div>
+    </section>
+    <table class="total">
+        <tbody>
+            <tr>
+                <td>subtotal</td>
+                <td>        </td>
+                <td>$29</td>
+            </tr><br>
+            <tr>
+                <td>tax</td>
+                <td>       </td>
+                <td>$2</td>
+            </tr><br>
+            <tr>
+                <td>total</td>
+                <td>     </td>
+                <td>$31</td>
+            </tr><br>
+          </tbody>  
+        
+    </table>
+    <button  id="checkout" type="button">place order</button>
+   
+    
+</body>
+</html>

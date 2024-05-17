@@ -1,0 +1,130 @@
+body{
+    
+    background-color: aliceblue;
+}
+.logo{
+    width: 25px;
+    display: grid;
+    position:relative;
+    top:10%;
+    bottom:10%;
+    margin-left: 41%;
+
+    
+    
+}
+.colmheading{
+    color: rgb(216, 160, 92);
+    text-align:start;
+    margin-top: 0%;
+}
+.box{
+    position:relative;
+    top:-400px;
+    left:600px;
+    padding:20px;
+    width:500px;
+    border-radius: 8%;
+    text-align:left ;
+    margin-bottom: 19px;
+    background: rgb(242, 224, 206);
+
+}
+
+.box1{
+    position:relative;
+   margin-top: 40px;
+    padding:20px;
+    width:500px;
+    border-radius: 10%;
+    text-align:left ;
+    background: rgb(242, 224, 206);
+
+}
+.navbar{
+    background-color: rgb(75, 41, 41);
+    color:bisque;
+    text-align:center;
+    padding: 1px;
+    
+}
+
+.brand{
+    position: relative;
+    right: inherit;
+
+}
+.itemrow{
+    display: flex;
+}
+.itemqt{
+    font-size: medium;
+    font-weight: 200;
+    margin:30px;
+}
+
+.itemname{
+    font-size: medium;
+    font-weight: 200;
+    margin: 30px;
+}
+
+.itemprice{
+    font-size: medium;
+    font-weight: 200;
+    margin: 30px;
+}
+
+.item-opt{
+    display:inline-block;
+    margin: 3%;
+   
+}
+
+.type{
+    position:relative;
+    
+    display: inline-block;
+    
+}
+
+.input-space{
+    border-color: crimson;
+    padding:8px;
+    border-radius: 10px;
+
+}
+
+.input-label{
+    background-color: rgb(242, 224, 206);
+    color:crimson;
+    font-size: 11px;
+    position: absolute;
+    left:25px;
+    top:-7px;
+    padding: 0 2px;
+}
+.total{
+    position: relative;
+    left:500px;
+    width: 70%;
+    display: grid;
+    font-display:inherit;
+    font-size: 30px;
+}
+#checkout{
+    background-color: antiquewhite;
+     display: inline-block;
+     width: 100%;
+      font-size: 25px;
+     padding: 10px 20px;
+    border-radius: 40px;
+}
+#pay{
+    width: 200%;
+    margin-bottom: 20px;
+}
+#ccv{
+    
+    
+}
